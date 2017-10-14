@@ -3,22 +3,22 @@
     <head>
         <title>My frame</title> <!--put your title here-->
         <frameset rows="5%,5%,25%">
-        <frame name="header" src="frame_a.html">
-	    <frameset cols="10%, 25%, 25%">
-    	    <frame name="home" src="frame_b.html">
-                <frameset cols="8%, 10%, 10%">
-                    <frame name="self" src="frame_c.html">
-                    <frame name="family" src="frame_d.html">
-                    <frame name="school" src="frame_e.html">
-                </frameset>
-            <frame name="friends"src="frame_f.html">
+            <frame name="header" src="frame_a.html">
+            <frameset cols="10%, 25%, 25%">
+                <frame name="home" src="frame_b.html">
+                    <frameset cols="8%, 10%, 10%">
+                        <frame id="self" name="self" src="frame_c.html">
+                        <frame id="family" name="family" src="frame_d.html">
+                        <frame id="school" name="school" src="frame_e.html">
+                    </frameset>
+                <frame name="friends"src="frame_f.html">
+            </frameset>
+            <frameset cols="10%, 25%, 25%">
+                <frame name="home_graphic"src="frame_g.html">
+                <frame id="change" name="information" src="frame_h.html">
+                <frame name="friends_info" src="frame_i.html">
+            </frameset>
         </frameset>
- 	    <frameset cols="10%, 25%, 25%">
-    	    <frame name="home_graphic"src="frame_g.html">
-            <frame name="information" src="frame_h.html">
-            <frame name="friends_info" src="frame_i.html">
-        </frameset>
-    </frameset>
     </head>
     <body>
         <script src="main.js"></script>
